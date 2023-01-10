@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-around;
+    padding: 2em;
+    
+    background-color: red;
+}
+.headerElement {
+    font-size: x-large;
+}
+
+.headerElement:hover {
+    background-color: blue;
+}
+
+.headerSectionContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.headerSection {
+    background-color: darkkhaki;
+    padding-inline: 1em;
+}
+
+.headerLinkContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.headerLink {
+    background-color: deeppink;
+}
+
+a:link { 
+    text-decoration: none; 
+    color: black;
+}
+a:visited { 
+    text-decoration: none;
+    color: black; 
+}
+a:hover { 
+    text-decoration: none; 
+}
+a:active {
+    text-decoration: none; 
+}
