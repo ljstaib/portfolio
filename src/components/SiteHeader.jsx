@@ -1,5 +1,8 @@
 import React from 'react'
 import styles from './styles.module.css'
+import Email from '../assets/Email.png'
+import GitHub from '../assets/GitHub.png'
+import LinkedIn from '../assets/LinkedIn.png'
 
 export default function SiteHeader() {
   return (
@@ -15,9 +18,9 @@ export default function SiteHeader() {
         </div>
         <div className={styles.headerElement}>
             <div className={styles.headerLinkContainer}>
-                <a href='mailto:ljstaib@bu.edu' className={styles.headerLink}><img src="../assets/Email.png" alt='Email'/></a>
-                <a href='https://github.com/ljstaib' className={styles.headerLink} target='_blank' rel='noreferrer'><img src="../assets/GitHub.png" alt='GitHub'/></a>
-                <a href='https://www.linkedin.com/in/luke-staib-2138b219b/' className={styles.headerLink} target='_blank' rel='noreferrer'><img src="../assets/LinkedIn.png" alt='LinkedIn'/></a>
+                <a href='mailto:ljstaib@bu.edu' className={styles.headerLink}><img src={Email} alt='Email' height={32} width={32}/></a>
+                <a href='https://github.com/ljstaib' className={styles.headerLink} target='_blank' rel='noreferrer'><img src={GitHub} alt='GitHub' height={32} width={32}/></a>
+                <a href='https://www.linkedin.com/in/luke-staib-2138b219b/' className={styles.headerLink} target='_blank' rel='noreferrer'><img src={LinkedIn} alt='LinkedIn' height={32} width={32}/></a>
             </div>
         </div>
     </div> 
