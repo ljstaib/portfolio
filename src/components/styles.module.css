@@ -9,6 +9,7 @@
 }
 .headerElement {
     font-size: x-large;
+    align-self: center;
 }
 
 .headerElement:hover {
@@ -23,7 +24,7 @@
 
 .headerSection {
     background-color: darkkhaki;
-    padding-inline: 1em;
+    padding-inline: 0.5em;
 }
 
 .headerLinkContainer {
@@ -34,6 +35,52 @@
 
 .headerLink {
     background-color: deeppink;
+}
+
+.about {
+    display: flex;
+    background-color: aquamarine;
+    padding-top: 1em;
+    justify-content: center;
+}
+
+.aboutContainer {
+    width: 30%;
+    background-color: blueviolet;
+}
+
+.aboutHeader {
+    background-color: gold;
+    font-size: xx-large;
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+.aboutBody {
+    padding-bottom: 0.5em;
+    background-color: bisque;
+    text-align: center;
+}
+
+.projects {
+    background-color: cornsilk;
+    justify-content: center;
+    display: flex;
+}
+
+.projectsList {
+    list-style-type: none;
+    background-color: lightpink;
+    width: 50%;
+}
+
+.projectElement {
+    margin-bottom: 5em;
+}
+
+.projectTitle {
+    font-size: x-large;
+    text-align: center;
 }
 
 a:link { 
