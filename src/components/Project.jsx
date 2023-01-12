@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './styles.module.css'
+import GitHub from '../assets/GitHub.png'
 
 export default function Projects({ title, image, description, link}) {
     return (
@@ -8,7 +9,6 @@ export default function Projects({ title, image, description, link}) {
                 {title}
             </div>
             <div className={styles.projectBody}>
-                Project Body
                 <div>
                     {image}
                 </div>
@@ -17,7 +17,7 @@ export default function Projects({ title, image, description, link}) {
                         {description}
                     </div>
                     <div>
-                        {link ? link : <div>No link</div>}
+                        {link ? <a href={link} target="_blank" rel="noreferrer"><img src={GitHub} alt='GitHub Link' height='32' width='32'/></a> : null}
                     </div>
                 </div>
             </div>
