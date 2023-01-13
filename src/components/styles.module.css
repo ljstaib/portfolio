@@ -3,7 +3,8 @@
     flex-direction: row;
     position: relative;
     justify-content: space-around;
-    padding: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
     
     background-color: red;
 }
@@ -11,6 +12,7 @@
 .headerElement {
     font-size: x-large;
     align-self: center;
+    width: 10%;
 }
 
 .headerElement:hover {
@@ -21,6 +23,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    background-color: wheat;
 }
 
 .headerSection {
@@ -31,12 +34,13 @@
 .headerLinkContainer {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.headerLink {
+    justify-content: space-around;
     background-color: deeppink;
 }
+
+/* .headerLink {
+    
+} */
 
 .sectionTitle {
     background-color:violet;

@@ -18,9 +18,9 @@ export default function SiteHeader() {
             </div>
             <div className={styles.headerElement}>
                 <div className={styles.headerLinkContainer}>
-                    <a href='mailto:ljstaib@bu.edu' className={styles.headerLink}><img src={Email} alt='Email' height={32} width={32}/></a>
-                    <a href='https://github.com/ljstaib' className={styles.headerLink} target='_blank' rel='noreferrer'><img src={GitHub} alt='GitHub' height={32} width={32}/></a>
-                    <a href='https://www.linkedin.com/in/luke-staib-2138b219b/' className={styles.headerLink} target='_blank' rel='noreferrer'><img src={LinkedIn} alt='LinkedIn' height={32} width={32}/></a>
+                    <a href='mailto:ljstaib@bu.edu' className={styles.headerLink}><img src={Email} alt='Email' height={40} width={40}/></a>
+                    <a href='https://github.com/ljstaib' className={styles.headerLink} target='_blank' rel='noreferrer'><img src={GitHub} alt='GitHub' height={40} width={40}/></a>
+                    <a href='https://www.linkedin.com/in/luke-staib-2138b219b/' className={styles.headerLink} target='_blank' rel='noreferrer'><img src={LinkedIn} alt='LinkedIn' height={40} width={40}/></a>
                 </div>
             </div>
         </div> 
