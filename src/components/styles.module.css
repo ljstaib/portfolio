@@ -37,6 +37,12 @@
     background-color: deeppink;
 }
 
+.sectionTitle {
+    background-color:violet;
+    font-size: xxx-large;
+    text-align: center;
+}
+
 .about {
     display: flex;
     background-color: aquamarine;
@@ -47,6 +53,7 @@
 .aboutContainer {
     width: 30%;
     background-color: blueviolet;
+    margin-bottom: 1em;
 }
 
 .aboutHeader {
@@ -77,6 +84,7 @@
 }
 
 .projectElement {
+    padding-bottom: 1em;
     margin-bottom: 5em;
     background-color:lavender;
 }
@@ -89,7 +97,23 @@
 
 .projectBody {
     display: flex;
-    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.educationElement {
+    margin-bottom: 3em;
+    background-color:lavender;
+    padding-bottom: 1em;
+}
+
+.educationTitle {
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.educationBody {
+    display: flex;
     justify-content: space-evenly;
 }
 
