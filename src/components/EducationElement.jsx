@@ -11,7 +11,7 @@ export default function EducationElement({ title, image, years, description, gpa
                 <div>
                     <img src={image} alt={title} height='128' width='128'></img>
                 </div>
-                <div>
+                <div className={styles.educationDetails}>
                     <div>
                         <div>
                             {years}

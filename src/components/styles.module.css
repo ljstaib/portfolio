@@ -138,6 +138,13 @@
     justify-content: space-evenly;
 }
 
+.educationDetails {
+    display: flex;
+    font-size: large;
+    align-self: center;
+    width: 40%;
+}
+
 .skills {
     background-color: cornsilk;
     justify-content: center;
@@ -145,10 +152,11 @@
 }
 
 .skillElement {
+    margin-top: 3em;
     margin-bottom: 3em;
     background-color:lavender;
-    padding-bottom: 1em;
-    width: 10%;
+    padding: 0.5em;
+    width: 15%;
 }
 
 .skillsList {
@@ -165,6 +173,12 @@
     font-size: x-large;
     text-align: center;
     margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+.skillImage {
+    display: flex;
+    justify-content: center;
 }
 
 .footer {
