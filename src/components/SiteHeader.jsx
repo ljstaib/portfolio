@@ -3,17 +3,20 @@ import styles from './styles.module.css'
 import Email from '../assets/Email.png'
 import GitHub from '../assets/GitHub.png'
 import LinkedIn from '../assets/LinkedIn.png'
+import HeaderSection from './HeaderSection'
+
+// Icons
+import { FaGraduationCap, FaRegFileCode, FaAtom } from 'react-icons/fa';
 
 export default function SiteHeader() {
     return (
         <div className={styles.header}>
-            <a href='/' className={styles.headerElement}>Luke Staib</a>
+            <a href='/' className={styles.headerElementName}>Luke Staib</a>
             <div className={styles.headerElement}>
                 <div className={styles.headerSectionContainer}>
-                    <a href='#about' className={styles.headerSection}>About</a>
-                    <a href='#education' className={styles.headerSection}>Education</a>
-                    <a href='#projects' className={styles.headerSection}>Projects</a>
-                    <a href='#skills' className={styles.headerSection}>Skills</a>
+                    <HeaderSection name='Projects' icon={<FaRegFileCode className={styles.headerSectionIcon}/>}/>
+                    <HeaderSection name='Education' icon={<FaGraduationCap className={styles.headerSectionIcon}/>}/>
+                    <HeaderSection name='Skills' icon={<FaAtom className={styles.headerSectionIcon}/>}/>
                 </div>
             </div>
             <div className={styles.headerElement}>
