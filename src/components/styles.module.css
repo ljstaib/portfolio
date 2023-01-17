@@ -5,8 +5,7 @@
     justify-content: space-around;
     padding-top: 2em;
     padding-bottom: 2em;
-    
-    background-color: red;
+    background-color: black;
 }
 
 .headerElement {
@@ -21,20 +20,15 @@
     letter-spacing: 0.05em;
     align-self: center;
     width: 10%;
-}
-
-.headerElement:hover {
-    background-color: blue;
+    color: white;
 }
 
 .headerSectionContainer {
     display: flex;
     justify-content: space-evenly;
-    background-color: wheat;
 }
 
 .headerSection {
-    background-color: darkkhaki;
     padding-inline: 1em;
     display: flex;
     flex-direction: row;
@@ -42,6 +36,7 @@
 
 .headerSectionName {
     font-size: large;
+    color: white;
 }
 
 .headerSectionIcon {
@@ -52,16 +47,12 @@
 .headerLinkContainer {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    background-color: deeppink;
+    justify-content: space-between;
 }
 
-/* .headerLink {
-    
-} */
-
 .sectionTitle {
-    background-color:violet;
+    background-color:#453F78;
+    color: #FFFFFF;
     font-size: xxx-large;
     text-align: center;
     padding: 0.25em;
@@ -69,18 +60,17 @@
 
 .about {
     display: flex;
-    background-color: aquamarine;
+    background-color: black;
+    color: white;
     padding: 2em;
     justify-content: center;
 }
 
 .aboutContainer {
     width: 50%;
-    background-color: blueviolet;
 }
 
 .aboutHeader {
-    background-color: gold;
     font-size: 5em;
     text-align: center;
     margin-bottom: 0.25em;
@@ -88,7 +78,6 @@
 
 .aboutBody {
     padding-bottom: 0.5em;
-    background-color: bisque;
     text-align: center;
     font-size: xx-large;
 }
@@ -102,7 +91,7 @@
 .projectsList {
     list-style-type: none;
     background-color: lightpink;
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     padding-left: 0;
@@ -123,6 +112,16 @@
 .projectBody {
     display: flex;
     justify-content: space-evenly;
+}
+
+.projectImage {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.projectImageContainer {
+    max-width: 50%;
+    max-height: 100%;
 }
 
 .education {
@@ -207,16 +206,16 @@
     justify-content: space-around;
     padding: 2em;
     
-    background-color: red;
+    background-color: black;
+    color: white;
 }
 
 a:link { 
     text-decoration: none; 
-    color: black;
+    color: white;
 }
 a:visited { 
     text-decoration: none;
-    color: black; 
 }
 a:hover { 
     text-decoration: none; 

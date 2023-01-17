@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './styles.module.css'
-import GitHub from '../assets/GitHub.png'
+import IconLink from './IconLink'
+import { FaGithub } from 'react-icons/fa';
 
 export default function Projects({ title, image, description, link}) {
     return (
@@ -9,15 +10,15 @@ export default function Projects({ title, image, description, link}) {
                 {title}
             </div>
             <div className={styles.projectBody}>
-                <div>
-                    {image}
+                <div className={styles.projectImageContainer}>
+                    <img className={styles.projectImage} src={image} alt={title}/>
                 </div>
                 <div>
                     <div>
                         {description}
                     </div>
                     <div>
-                        {link ? <a href={link} target="_blank" rel="noreferrer"><img src={GitHub} alt='GitHub Link' height='32' width='32'/></a> : null}
+                        {link ? <IconLink link='https://github.com/ljstaib' icon={<FaGithub size='32' color='white'/>}/> : null}
                     </div>
                 </div>
             </div>

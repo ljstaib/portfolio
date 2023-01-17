@@ -1,29 +1,32 @@
 import React from 'react'
 import styles from './styles.module.css'
-import Email from '../assets/Email.png'
-import GitHub from '../assets/GitHub.png'
-import LinkedIn from '../assets/LinkedIn.png'
+
+// Components
 import HeaderSection from './HeaderSection'
+import IconLink from './IconLink'
 
 // Icons
-import { FaGraduationCap, FaRegFileCode, FaAtom } from 'react-icons/fa';
+import { FaGraduationCap, FaRegFileCode, FaHammer, FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 export default function SiteHeader() {
+    const iconSize = 32;
+    const iconColor = 'white';
+
     return (
         <div className={styles.header}>
             <a href='/' className={styles.headerElementName}>Luke Staib</a>
             <div className={styles.headerElement}>
                 <div className={styles.headerSectionContainer}>
-                    <HeaderSection name='Projects' icon={<FaRegFileCode className={styles.headerSectionIcon}/>}/>
-                    <HeaderSection name='Education' icon={<FaGraduationCap className={styles.headerSectionIcon}/>}/>
-                    <HeaderSection name='Skills' icon={<FaAtom className={styles.headerSectionIcon}/>}/>
+                    <HeaderSection name='Projects' icon={<FaRegFileCode className={styles.headerSectionIcon} color={iconColor}/>}/>
+                    <HeaderSection name='Education' icon={<FaGraduationCap className={styles.headerSectionIcon} color={iconColor}/>}/>
+                    <HeaderSection name='Skills' icon={<FaHammer className={styles.headerSectionIcon} color={iconColor}/>}/>
                 </div>
             </div>
             <div className={styles.headerElement}>
                 <div className={styles.headerLinkContainer}>
-                    <a href='mailto:ljstaib@bu.edu' className={styles.headerLink}><img src={Email} alt='Email' height={40} width={40}/></a>
-                    <a href='https://github.com/ljstaib' className={styles.headerLink} target='_blank' rel='noreferrer'><img src={GitHub} alt='GitHub' height={40} width={40}/></a>
-                    <a href='https://www.linkedin.com/in/luke-staib-2138b219b/' className={styles.headerLink} target='_blank' rel='noreferrer'><img src={LinkedIn} alt='LinkedIn' height={40} width={40}/></a>
+                    <IconLink link='mailto:ljstaib@bu.edu' icon={<FaEnvelope size={iconSize} color={iconColor}/>}/>
+                    <IconLink link='https://github.com/ljstaib' icon={<FaGithub size={iconSize} color={iconColor}/>}/>
+                    <IconLink link='https://www.linkedin.com/in/luke-staib-2138b219b/' icon={<FaLinkedin size={iconSize} color={iconColor}/>}/>
                 </div>
             </div>
         </div> 

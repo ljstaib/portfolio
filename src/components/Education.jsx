@@ -1,6 +1,6 @@
 import React from 'react'
 import EducationElement from './EducationElement.jsx'
-import BU from '../assets/BU.png'
+import BU from '../assets/education/BU.png'
 import styles from './styles.module.css'
 
 export default function Education() {
