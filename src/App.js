@@ -10,9 +10,15 @@ function App() {
 	<div>
 		<SiteHeader />
 		<About />
-		<Projects />
-		<Education />
-		<Skills />
+		<section id='projects'>
+			<Projects/>
+		</section>
+		<section id='education'>
+			<Education/>
+		</section> 
+		<section id='skills'>
+			<Skills/>
+		</section>
 		<SiteFooter />
 	</div>
 	);

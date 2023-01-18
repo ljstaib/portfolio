@@ -13,15 +13,13 @@ export default function EducationElement({ title, image, years, description, gpa
                 </div>
                 <div className={styles.educationDetails}>
                     <div>
-                        <div>
-                            {years}
-                        </div>
-                        <div>
-                            {description}
-                        </div>
-                        <div>
-                            GPA: {gpa}
-                        </div>
+                        Years Attended: {years}
+                    </div>
+                    <div>
+                        Degree: {description}
+                    </div>
+                    <div>
+                        GPA: {gpa}
                     </div>
                 </div>
             </div>
