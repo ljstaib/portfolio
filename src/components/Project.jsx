@@ -13,13 +13,11 @@ export default function Projects({ title, image, description, link}) {
                 <div className={styles.projectImageContainer}>
                     <img className={styles.projectImage} src={image} alt={title}/>
                 </div>
+                <div className={styles.projectDescription}>
+                    {description}
+                </div>
                 <div>
-                    <div>
-                        {description}
-                    </div>
-                    <div>
-                        {link ? <IconLink link='https://github.com/ljstaib' icon={<FaGithub size='32' color='white'/>}/> : null}
-                    </div>
+                    {link ? <IconLink link={link} icon={<FaGithub size='32' color='white'/>}/> : null}
                 </div>
             </div>
         </div>

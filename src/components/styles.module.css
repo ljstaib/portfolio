@@ -51,7 +51,7 @@
 }
 
 .sectionTitle {
-    background-color:#453F78;
+    background-color: #160e61;
     color: #FFFFFF;
     font-size: xxx-large;
     text-align: center;
@@ -83,14 +83,14 @@
 }
 
 .projects {
-    background-color: cornsilk;
+    background-color: #2c237d;
+    color: white;
     justify-content: center;
     display: flex;
 }
 
 .projectsList {
     list-style-type: none;
-    background-color: lightpink;
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -100,18 +100,22 @@
 .projectElement {
     padding-bottom: 1em;
     margin-bottom: 5em;
-    background-color:lavender;
+    border: 1px solid #FFFFFF;
+    border-radius: 1em;
 }
 
 .projectTitle {
     font-size: x-large;
     text-align: center;
-    margin-bottom: 0.5em;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .projectBody {
     display: flex;
     justify-content: space-evenly;
+    width: 100%;
 }
 
 .projectImage {
@@ -120,8 +124,13 @@
 }
 
 .projectImageContainer {
-    max-width: 50%;
+    max-width: 40%;
     max-height: 100%;
+}
+
+.projectDescription {
+    width: 40%;
+    align-self: center;
 }
 
 .education {
