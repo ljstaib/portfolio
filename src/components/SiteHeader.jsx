@@ -26,7 +26,7 @@ export default function SiteHeader() {
                 <div className={styles.headerLinkContainer}>
                     <IconLink link='mailto:ljstaib@bu.edu' icon={<FaEnvelope size={iconSize} color={iconColor}/>}/>
                     <IconLink link='https://github.com/ljstaib' icon={<FaGithub size={iconSize} color={iconColor}/>}/>
-                    <IconLink link='https://www.linkedin.com/in/luke-staib-2138b219b/' icon={<FaLinkedin size={iconSize} color={iconColor}/>}/>
+                    <IconLink link='https://www.linkedin.com/in/luke-staib' icon={<FaLinkedin size={iconSize} color={iconColor}/>}/>
                 </div>
             </div>
         </div> 
