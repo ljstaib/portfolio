@@ -8,13 +8,16 @@ import C from '../assets/skills/C.png'
 import CSharp from '../assets/skills/CSharp.png'
 import CPlusPlus from '../assets/skills/CPlusPlus.png'
 import CSS from '../assets/skills/CSS.png'
+import Flask from '../assets/skills/Flask.png'
 import Git from '../assets/skills/Git.png'
 import HTML from '../assets/skills/HTML.png'
 import Java from '../assets/skills/Java.png'
 import JavaScript from '../assets/skills/JavaScript.png'
 import Linux from '../assets/skills/Linux.png'
+import MongoDB from '../assets/skills/MongoDB.png'
 import Python from '../assets/skills/Python.png'
 import ReactImg from '../assets/skills/ReactImg.png'
+import Selenium from '../assets/skills/Selenium.png'
 import SQLite from '../assets/skills/SQLite.png'
 
 export default function Skills() {
@@ -30,6 +33,7 @@ export default function Skills() {
 					<Skill title="C#" logo={CSharp}/>
 					<Skill title="C++" logo={CPlusPlus}/>
 					<Skill title="CSS" logo={CSS}/>
+					<Skill title="Flask" logo={Flask}/>
 					<Skill title="Git" logo={Git}/>
 					<Skill title="HTML" logo={HTML}/>
 				</ul>
@@ -37,8 +41,10 @@ export default function Skills() {
 					<Skill title="Java" logo={Java}/>
 					<Skill title="JavaScript" logo={JavaScript}/>
 					<Skill title="Linux" logo={Linux}/>
+					<Skill title="MongoDB" logo={MongoDB}/>
 					<Skill title="Python" logo={Python}/>
 					<Skill title="React" logo={ReactImg}/>
+					<Skill title="Selenium" logo={Selenium}/>
 					<Skill title="SQLite" logo={SQLite}/>
 				</ul>
 			</div>
