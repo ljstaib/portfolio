@@ -611,3 +611,13 @@
         scroll-behavior: smooth;
     }
 }
+
+.maintenanceHead {
+    text-align: center;
+    font-size: 10em;
+}
+
+.maintenanceBody {
+    text-align: center;
+    font-size: x-large;
+}
