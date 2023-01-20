@@ -8,25 +8,31 @@ import SiteFooter from './components/SiteFooter';
 import Maintenance from './components/Maintenance';
 
 function App() {
-	return (
-		// <div>
-		// 	<SiteHeader />
-		// 	<About />
-		// 	<section id='projects'>
-		// 		<Projects/>
-		// 	</section>
-		// 	<section id='education'>
-		// 		<Education/>
-		// 	</section> 
-		// 	<section id='skills'>
-		// 		<Skills/>
-		// 	</section>
-		// 	<SiteFooter />
-		// </div>
-		<div>
+	const doMaintenance = true;
+
+	if (doMaintenance) {
+		return (
 			<Maintenance />
-		</div>
-	);
+		)
+	}
+	else {
+		return (
+			<div>
+				<SiteHeader />
+				<About />
+				<section id='projects'>
+					<Projects/>
+				</section>
+				<section id='education'>
+					<Education/>
+				</section> 
+				<section id='skills'>
+					<Skills/>
+				</section>
+				<SiteFooter />
+			</div>
+		);
+	}
 }
 
 export default App;
