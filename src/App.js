@@ -5,22 +5,27 @@ import Education from './components/Education';
 import Skills from './components/Skills';
 import SiteFooter from './components/SiteFooter';
 
+import Maintenance from './components/Maintenance';
+
 function App() {
 	return (
-	<div>
-		<SiteHeader />
-		<About />
-		<section id='projects'>
-			<Projects/>
-		</section>
-		<section id='education'>
-			<Education/>
-		</section> 
-		<section id='skills'>
-			<Skills/>
-		</section>
-		<SiteFooter />
-	</div>
+		// <div>
+		// 	<SiteHeader />
+		// 	<About />
+		// 	<section id='projects'>
+		// 		<Projects/>
+		// 	</section>
+		// 	<section id='education'>
+		// 		<Education/>
+		// 	</section> 
+		// 	<section id='skills'>
+		// 		<Skills/>
+		// 	</section>
+		// 	<SiteFooter />
+		// </div>
+		<div>
+			<Maintenance />
+		</div>
 	);
 }
 
