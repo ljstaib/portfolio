@@ -3,6 +3,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Education from './components/Education';
 import Skills from './components/Skills';
+import Contact from './components/Contact';
 import SiteFooter from './components/SiteFooter';
 
 import Maintenance from './components/Maintenance';
@@ -29,6 +30,7 @@ function App() {
 				<section id='skills'>
 					<Skills/>
 				</section>
+				<Contact />
 				<SiteFooter />
 			</div>
 		);
