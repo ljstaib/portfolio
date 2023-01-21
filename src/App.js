@@ -8,7 +8,7 @@ import SiteFooter from './components/SiteFooter';
 import Maintenance from './components/Maintenance';
 
 function App() {
-	const doMaintenance = false;
+	const doMaintenance = true;
 
 	if (doMaintenance) {
 		return (
