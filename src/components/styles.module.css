@@ -41,7 +41,7 @@
     }
 
     .headerSection:hover {
-        background-color: #111;
+        background-color: #222;
     }
 
     .headerSection:active {
@@ -262,7 +262,7 @@
     }
 
     .skillElement:hover {
-        background-color: #111;
+        background-color: #222;
         border-radius: 1em;
     }
 
@@ -354,7 +354,7 @@
     }
 
     .headerSection:hover {
-        background-color: #111;
+        background-color: #222;
     }
 
     .headerSection:active {
@@ -559,7 +559,7 @@
     }
 
     .skillElement:hover {
-        background-color: #111;
+        background-color: #222;
         border-radius: 1em;
     }
 
