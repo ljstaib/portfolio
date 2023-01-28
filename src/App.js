@@ -8,6 +8,11 @@ import SiteFooter from './components/SiteFooter';
 
 import Maintenance from './components/Maintenance';
 
+import ReactGA from 'react-ga';
+const TRACKING_ID = process.env.T_ID;
+ReactGA.initialize(TRACKING_ID);
+ReactGA.pageview('window.location.pathname + window.location.search');
+
 function App() {
 	const doMaintenance = true;
 
