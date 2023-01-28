@@ -9,8 +9,7 @@ import SiteFooter from './components/SiteFooter';
 import Maintenance from './components/Maintenance';
 
 import ReactGA from 'react-ga4';
-const TRACKING_ID = process.env.T_ID;
-ReactGA.initialize(TRACKING_ID);
+ReactGA.initialize(process.env.REACT_APP_T_ID);
 ReactGA.send({ hitType: "pageview", page: "/" });
 
 function App() {
