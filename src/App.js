@@ -9,11 +9,10 @@ import SiteFooter from './components/SiteFooter';
 import Maintenance from './components/Maintenance';
 
 import ReactGA from 'react-ga4';
-ReactGA.initialize(process.env.REACT_APP_T_ID);
-ReactGA.send({ hitType: "pageview", page: "/" });
 
 function App() {
 	const doMaintenance = true;
+	ReactGA.pageview(window.location.pathname + window.location.search);
 
 	if (doMaintenance) {
 		return (
