@@ -4,9 +4,6 @@ import styles from './styles.module.css'
 export default function About() {
 	return (
 		<div>
-			{/* <div className={styles.sectionTitle}>
-				About
-			</div> */}
 			<div className={styles.about}>
 				<div className={styles.aboutContainer}>
 					<div className={styles.aboutHeader}>
