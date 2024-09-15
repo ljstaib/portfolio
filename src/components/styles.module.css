@@ -12,7 +12,6 @@
     .headerElement {
         font-size: x-large;
         align-self: center;
-        width: 10%;
     }
 
     .headerElementName {
@@ -20,7 +19,6 @@
         font-weight: bold;
         letter-spacing: 0.05em;
         align-self: center;
-        width: 10%;
         color: white;
     }
 
